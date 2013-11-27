@@ -20,7 +20,7 @@ class UsersController extends AppController
                    }
               
             }else{
-                $this->Session->setFlash('Invalid Username or Password');
+                $this->Session->setFlash('Invalid Username or Password. try again later.');
             }
         }
     }
